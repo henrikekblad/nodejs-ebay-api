@@ -2,11 +2,11 @@
   "name": "ebay-api",
   "description": "eBay API Client",
   "version": "0.1.1",
-  "homepage": "https://github.com/newleafdigital/nodejs-ebay-api",
+  "homepage": "https://github.com/VillageLuxe/nodejs-ebay-api",
   "author": "Ben Buckman <ben@newleafdigital.com> (http://newleafdigital.com)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/newleafdigital/nodejs-ebay-api.git"
+    "url": "git://github.com/VillageLuxe/nodejs-ebay-api.git"
   },
   "main": "index.js",
   "dependencies": {
