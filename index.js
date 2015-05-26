@@ -603,9 +603,9 @@ var parseItemsFromResponse = function parseItemsFromResponse(data, callback) {
     }
 
     // recursively flatten 1-level arrays and "@key:__VALUE__" pairs
-    items = _(items).map(function(item) {
-      return flatten(item);
-    });
+    //items = _(items).map(function(item) {
+    //  return flatten(item);
+    //});
   }
   catch(error) {
     callback(error);
