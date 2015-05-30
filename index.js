@@ -321,10 +321,10 @@ var ebayApiGetRequest = function ebayApiGetRequest(options, callback) {
 
   // emitted when some errors have occurred
   // either this OR 'completed' should fire
-  request.on('error', function(error, response) {
+  /*request.on('error', function(error, response) {
     error.message = "Request error: " + error.message;
     callback(error);
-  });
+  });*/
 
   // emitted when the request was successful
   // -- overlaps w/ 'completed', don't use
